@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 align = 'center'>Welcome to zuri Dango CRUD Assignment LandingPage Click the Link Below to Continue</h1>
+        <div class="d-flex justify-content-center">
+           
+            <a href="{% url 'blog:all' %}" class="d-block btn btn-primary btn-lg my-5">CONTINUE</a>
+        </div>
+    
+    </div>
+    
+</div>
+
+{% endblock  %}
